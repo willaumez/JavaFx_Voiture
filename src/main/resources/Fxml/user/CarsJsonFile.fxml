@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="850.0" prefWidth="950.0" stylesheets="@../../Styles/carsTabStyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.voiture.gestion_voitures.Controllers.User.CarsJsonFileController">
+    <Text layoutX="337.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cars List   --Json_File--" textAlignment="CENTER">
+        <font>
+            <Font size="27.0" />
+        </font>
+    </Text>
+    <TextArea fx:id="json_text_area" editable="false" layoutX="94.0" layoutY="152.0" prefHeight="670.0" prefWidth="799.0" styleClass="json_text_area" AnchorPane.leftAnchor="94.0" AnchorPane.rightAnchor="57.0">
+      <padding>
+         <Insets left="200.0" />
+      </padding></TextArea>
+</AnchorPane>

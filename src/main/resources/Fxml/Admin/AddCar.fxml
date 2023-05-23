@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<?import com.sun.javafx.scene.control.IntegerField?>
+<?import com.sun.javafx.scene.control.DoubleField?>
+<AnchorPane prefHeight="600.0" prefWidth="700.0" stylesheets="@../../Styles/addCarStyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.voiture.gestion_voitures.Controllers.Admin.AddCarController">
+   <Text layoutX="484.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Car" textAlignment="CENTER" underline="true">
+      <font>
+         <Font name="System Bold" size="27.0" />
+      </font>
+   </Text>
+    <GridPane layoutX="60.0" layoutY="82.0" prefHeight="450.0" prefWidth="580.0" AnchorPane.leftAnchor="40.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+        <padding>
+            <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+        </padding>
+        <Label text="Marque:" />
+        <TextField fx:id="marqueTextField" GridPane.columnIndex="1" />
+
+        <Label text="Modèle:" GridPane.rowIndex="1" />
+        <TextField fx:id="modeleTextField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+        <Label text="Matriculation:" GridPane.rowIndex="2" />
+        <TextField fx:id="matriculationTextField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
+        <Label text="Année:" GridPane.rowIndex="3" />
+        <TextField fx:id="anneeTextField" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+
+        <Label text="Prix:" GridPane.rowIndex="4" />
+        <TextField fx:id="prixTextField" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+
+        <Label text="Consommation (l/100km):" GridPane.rowIndex="5" />
+        <TextField fx:id="consommationTextField" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+
+        <Label text="Puissance (chevaux):" GridPane.rowIndex="6" />
+        <TextField fx:id="puissanceTextField" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+    </GridPane>
+     <Button fx:id="returnToDataBase" layoutX="268.0" layoutY="546.0" text="Return" />
+     <Button fx:id="add_car_db" layoutX="691.0" layoutY="546.0" onAction="#handleAddCarButton" text="Ajouter" />
+   <padding>
+      <Insets left="200.0" />
+   </padding>
+</AnchorPane>

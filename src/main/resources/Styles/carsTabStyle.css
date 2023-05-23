@@ -1,0 +1,78 @@
+/* carsTabStyle.css */
+
+.root {
+    -fx-background-color: #f0f0f0;
+}
+
+.user_name{
+    -fx-font-size: 2.6em;
+    -fx-font-family: "Calibri Lignt";
+}
+.login_date{
+    -fx-text-fill: #AAAAAA;
+    -fx-font-size: 1.1em;
+    -fx-font-family: "Calibri Lignt";
+}
+
+
+.table-view {
+    -fx-table-cell-border-color: transparent;
+}
+
+.table-view .column-header {
+    -fx-font-weight: bold;
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+}
+
+.table-view .table-cell {
+    -fx-padding: 5px;
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: #f0f0f0;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #b3d9ff;
+}
+
+.table-view .table-row-cell:odd:selected {
+    -fx-background-color: #a6c6e0;
+}
+
+.table-view .table-row-cell:selected .table-cell {
+    -fx-text-fill: black;
+}
+
+.table-view .table-row-cell:odd:selected .table-cell {
+    -fx-text-fill: black;
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 15px;
+    -fx-padding: 5px;
+    -fx-alignment: center; /* Ajoutez cette ligne pour centrer le texte des en-têtes de colonne */
+    -fx-fill: black;
+
+}
+
+.table-view .table-cell {
+    -fx-padding: 5px;
+    -fx-alignment: center; /* Ajoutez cette ligne pour centrer le texte des cellules */
+}
+
+
+
+/*Json file style*/
+.json_text_area {
+    -fx-font-size: 15px; /* Augmentez la taille des caractères selon vos préférences */
+    -fx-font-family: "Arial"; /* Définissez la police de caractères selon vos préférences */
+    -fx-alignment: center; /* Centrer le contenu horizontalement */
+    -fx-text-alignment: center; /* Centrer le contenu verticalement */
+    -fx-background-color: #FFFFFF;
+}
+

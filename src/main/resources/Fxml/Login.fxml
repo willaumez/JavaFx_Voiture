@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<?import javafx.scene.control.PasswordField?>
+<AnchorPane prefHeight="600.0" prefWidth="800.0" stylesheets="@../Styles/login.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.voiture.gestion_voitures.Controllers.LoginController">
+   <VBox layoutY="1.0" prefHeight="600.0" prefWidth="300.0" styleClass="login_logo_container" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <FontAwesomeIconView glyphName="CAR" size="70" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="My Car" />
+   </VBox>
+   <VBox layoutX="317.0" layoutY="88.0" prefHeight="245.0" prefWidth="460.0" styleClass="login_form_container" AnchorPane.rightAnchor="23.0" AnchorPane.topAnchor="150.0">
+      <padding>
+         <Insets left="20.0" right="20.0" />
+      </padding>
+      <Label fx:id="address_lbl" text="Utilisateur:" textAlignment="CENTER" />
+      <TextField fx:id="address_fld" styleClass="input_field" />
+      <Label fx:id="password_lbl" text="Password:" />
+      <PasswordField fx:id="password_fld" styleClass="input_field" />
+      <Button fx:id="login_btn" mnemonicParsing="false" prefWidth="459.0" text="Login" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+         <VBox.margin>
+            <Insets top="15.0" />
+         </VBox.margin>
+      </Button>
+      <Label fx:id="error_lbl" prefHeight="30.0" prefWidth="34.0" styleClass="error_lbl" textAlignment="CENTER">
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </Label>
+   </VBox>
+   <Label layoutX="430.0" layoutY="40.0" text="Login Information" textAlignment="CENTER" AnchorPane.rightAnchor="160.0" AnchorPane.topAnchor="40.0">
+      <font>
+         <Font size="28.0" />
+      </font>
+   </Label>
+</AnchorPane>

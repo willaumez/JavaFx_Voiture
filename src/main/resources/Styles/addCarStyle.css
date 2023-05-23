@@ -1,0 +1,47 @@
+/* Styles pour le formulaire d'ajout de voiture */
+
+.grid-pane {
+    -fx-padding: 25px;
+    -fx-background-color: #f2f2f2;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+.text-field {
+    -fx-pref-width: 200px;
+    -fx-pref-height: 30px;
+    -fx-font-size: 14px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 3px;
+    -fx-padding: 5px;
+}
+
+.text-field:focused {
+    -fx-border-color: #0078d7;
+}
+
+.button {
+    -fx-pref-width: 100px;
+    -fx-pref-height: 40px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-color: #0078d7;
+    -fx-text-fill: #ffffff;
+    -fx-border-radius: 3px;
+    -fx-padding: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #005ea2;
+}
+
+.button:pressed {
+    -fx-background-color: #004d88;
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "id": 38,
+    "marque": "Renault",
+    "modele": "Clio",
+    "matriculation": "AB-123-CD",
+    "annee": 2010,
+    "prix": 5000.0,
+    "consommation": 6.5,
+    "puissance": 75
+  },
+  {
+    "id": 39,
+    "marque": "dfghjkl----",
+    "modele": "gfghjkjhgf----",
+    "matriculation": "EF-456-GH",
+    "annee": 0,
+    "prix": 8000.0,
+    "consommation": 5.8,
+    "puissance": 100
+  },
+  {
+    "id": 40,
+    "marque": "Citroen",
+    "modele": "C3",
+    "matriculation": "IJ-789-KL",
+    "annee": 2012,
+    "prix": 6500.0,
+    "consommation": 7.2,
+    "puissance": 90
+  },
+  {
+    "id": 52,
+    "marque": "Renault",
+    "modele": "Clio",
+    "matriculation": "AB-123-CD",
+    "annee": 2010,
+    "prix": 5000.0,
+    "consommation": 6.5,
+    "puissance": 75
+  },
+  {
+    "id": 53,
+    "marque": "Peugeot",
+    "modele": "208",
+    "matriculation": "EF-456-GH",
+    "annee": 2016,
+    "prix": 8000.0,
+    "consommation": 5.8,
+    "puissance": 100
+  },
+  {
+    "id": 54,
+    "marque": "Citroen",
+    "modele": "C3",
+    "matriculation": "IJ-789-KL",
+    "annee": 2012,
+    "prix": 6500.0,
+    "consommation": 7.2,
+    "puissance": 90
+  },
+  {
+    "id": 55,
+    "marque": "Volkswagen",
+    "modele": "Golf",
+    "matriculation": "MN-012-OP",
+    "annee": 2014,
+    "prix": 10000.0,
+    "consommation": 4.9,
+    "puissance": 110
+  },
+  {
+    "id": 56,
+    "marque": "Ford",
+    "modele": "Fiesta",
+    "matriculation": "QR-345-ST",
+    "annee": 2015,
+    "prix": 7500.0,
+    "consommation": 6.3,
+    "puissance": 80
+  },
+  {
+    "id": 57,
+    "marque": "Audi",
+    "modele": "A3",
+    "matriculation": "UV-678-WX",
+    "annee": 2017,
+    "prix": 15000.0,
+    "consommation": 5.1,
+    "puissance": 120
+  },
+  {
+    "id": 58,
+    "marque": "BMW",
+    "modele": "X1",
+    "matriculation": "YZ-901-AB",
+    "annee": 2018,
+    "prix": 25000.0,
+    "consommation": 7.6,
+    "puissance": 150
+  },
+  {
+    "id": 59,
+    "marque": "Mercedes",
+    "modele": "C220",
+    "matriculation": "CD-234-EF",
+    "annee": 2013,
+    "prix": 12000.0,
+    "consommation": 5.5,
+    "puissance": 130
+  },
+  {
+    "id": 60,
+    "marque": "Toyota",
+    "modele": "Yaris",
+    "matriculation": "GH-567-IJ",
+    "annee": 2011,
+    "prix": 5500.0,
+    "consommation": 5.9,
+    "puissance": 95
+  },
+  {
+    "id": 61,
+    "marque": "Fiat",
+    "modele": "500",
+    "matriculation": "KL-890-MN",
+    "annee": 2019,
+    "prix": 9000.0,
+    "consommation": 6.8,
+    "puissance": 70
+  }
+]
